@@ -3,6 +3,8 @@
 # Created on: Sept 28,2022
 # Program that calculates Surface Area and Volume of a Sphere
 import math
+import sys
+
 from termcolor import colored
 
 
@@ -16,7 +18,7 @@ def main():
     # Calculates Volume
     volume = 4 / 3 * math.pi * radius**3
 
-    # Display end results to user
+    # Display end results to user with colour
     print(
         colored(
             "The surface area of the sphere is: {:,.2f}cm^2".format(surface_area),
