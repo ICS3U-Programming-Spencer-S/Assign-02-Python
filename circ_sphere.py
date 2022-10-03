@@ -19,8 +19,8 @@ def main():
     # Display end results to user
     print(
         colored(
-        "The surface area of the sphere is: {:,.2f}cm^2".format(surface_area),
-        "cyan",
+            "The surface area of the sphere is: {:,.2f}cm^2".format(surface_area),
+            "cyan",
         )
     )
     print(colored("The volume of the sphere is: {:,.2f}cm^3".format(volume), "magenta"))
